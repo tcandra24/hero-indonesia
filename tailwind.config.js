@@ -33,7 +33,7 @@ module.exports = {
       white: "#ffffff",
       black: "#08111F",
       primary: "#47BDFF",
-      secondary: "#B476E5",
+      secondary: "#d63131",
       gray: {
         DEFAULT: "#7780A1",
         dark: "#1C2331",
@@ -53,9 +53,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [
-    require("@tailwindcss/line-clamp"),
-    rotateX,
-    require("@tailwindcss/typography"),
-  ],
+  plugins: [rotateX, require("@tailwindcss/typography")],
 };

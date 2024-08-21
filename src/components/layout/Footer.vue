@@ -89,133 +89,20 @@
         <div>
           <ul class="flex flex-col gap-3 font-bold">
             <li class="mb-3 text-lg font-extrabold text-black dark:text-white">
-              Quick Menu
+              Menu
             </li>
             <li>
               <router-link
-                to="/"
+                :to="{ name: 'home' }"
                 class="inline-block transition hover:scale-110 hover:text-secondary"
                 >Home</router-link
               >
             </li>
             <li>
               <router-link
-                to="/portfolio"
+                to="#"
                 class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Portfolio</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/services"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Service</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/team"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Team</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/about-us"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >About Us</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/career"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Career</router-link
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex flex-col gap-3 font-bold">
-            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">
-              Services
-            </li>
-            <li>
-              <router-link
-                to="/services-detail"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >UI/UX Design</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/services-detail"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Web Development</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/services-detail"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Digital Marketing</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/services-detail"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >App Development</router-link
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex flex-col gap-3 font-bold">
-            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">
-              Legal
-            </li>
-            <li>
-              <router-link
-                to="/terms-conditions"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Terms & Conditions</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/privacy-policy"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Privacy Policy</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/faq"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >FAQs</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/blog"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Blog</router-link
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex flex-col gap-3 font-bold">
-            <li class="mb-3 text-lg font-extrabold text-black dark:text-white">
-              Information
-            </li>
-            <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
-            <li>
-              <a
-                href="tel:+(617) 254-2333"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >+(617) 254-2333</a
+                >Tentang Saya</router-link
               >
             </li>
           </ul>
@@ -240,7 +127,7 @@
           <div>
             Need help? Visit the
             <router-link
-              to="/contact-us"
+              to="#"
               class="text-secondary transition hover:text-primary"
               >Contact Us</router-link
             >

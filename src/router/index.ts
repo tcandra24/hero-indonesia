@@ -8,7 +8,18 @@ import { useAppStore } from "../stores/index";
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
+    name: "home",
     component: () => import("../views/Home.vue"),
+  },
+  {
+    path: "/biografi",
+    name: "biografi",
+    component: () => import("../views/Biography.vue"),
+  },
+  {
+    path: "/organisasi/:slug",
+    name: "organisasi",
+    component: () => import("../views/organisation/Show.vue"),
   },
 ];
 
