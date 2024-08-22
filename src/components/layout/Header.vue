@@ -37,9 +37,10 @@
               </button>
             </div>
             <ul @click="showMenu = false">
-              <li><router-link :to="{ name: 'home' }"> Home </router-link></li>
               <li>
-                <router-link to="#">Tentang Saya</router-link>
+                <router-link class="text-white" :to="{ name: 'home' }">
+                  Home
+                </router-link>
               </li>
             </ul>
           </div>
@@ -195,7 +196,7 @@ import { ref } from "vue";
 import { useAppStore } from "../../stores/index";
 const store = useAppStore();
 const showMenu = ref(false);
-// Mobile menu js
+
 const toggleMenu = () => {
   if (window.innerWidth < 1024) {
     showMenu.value = !showMenu.value;

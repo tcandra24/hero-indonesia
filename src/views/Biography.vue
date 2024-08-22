@@ -12,22 +12,10 @@
               class="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right"
             >
               <h6>Pahlawan Indonesia</h6>
-              <h4 class="!text-white">Siapa KH Ahmad Dahlan?</h4>
+              <h4 class="!text-white">Siapa Ahmad Dahlan?</h4>
               <ul
                 class="items-center justify-center pt-6 sm:flex lg:justify-start"
-              >
-                <li class="flex items-center justify-center">
-                  <img src="/assets/images/sophia-avtar.png" alt="avtar" />
-                  <span class="px-4 font-semibold sm:text-lg"
-                    >Sophia Reyes</span
-                  >
-                </li>
-                <li
-                  class="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1"
-                >
-                  5 mins read
-                </li>
-              </ul>
+              ></ul>
             </div>
             <div
               class="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
@@ -49,7 +37,7 @@
       class="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]"
     >
       <div class="container">
-        <div class="prose max-w-full dark:prose-invert">
+        <div class="prose max-w-full dark:prose-invert text-justify">
           <h2>Latar Belakang Keluarga</h2>
           <p>
             Ahmad Dahlan Lahir di Yogyakarta pada 1 Agustus 1868 memiliki nama
@@ -103,6 +91,44 @@
             Fiqih), KH Muhsin (Ilmu Nahwu), KH R Dahlan (Ilmu Falak), KH Mahfudz
             dan Syekh Khayyat Sattokh (Ilmu Hadis), serta masih banyak lainnya.
           </p>
+
+          <h2>Kisah Difilmkan</h2>
+          <p>
+            Pada tahun 2010 kisah dari Ahmad Dahlan difilmkan yang disutradarai
+            oleh Hanung Bramantyo berdasarkan kisah nyata tentang pendiri
+            Muhammadiyah Film ini bercerita tentang kisah perjuangan K.H Ahmad
+            Dahlan yang berjuang untuk meluruskan akidah masyarakat Kauman yang
+            melakukan praktik-praktik kemusyrikan. dibintangi oleh Lukman Sardi
+            sebagai Ahmad Dahlan, Muhammad Ihsan Tarore sebagai Ahmad Dahlan
+            Muda, dan Zaskia Adya Mecca sebagai Nyai Ahmad Dahlan.
+          </p>
+
+          <div
+            class="not-prose grid gap-[30px] pb-6 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            <div
+              class="group h-[400px] overflow-hidden rounded-[32px] lg:col-span-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="/assets/images/film-sang-pencerah-2.png"
+                alt="blog-detail-1"
+                class="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div
+              class="group h-[400px] overflow-hidden rounded-[32px]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="/assets/images/film-sang-pencerah.jpg"
+                alt="blog-detail-2"
+                class="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
+              />
+            </div>
+          </div>
 
           <h2>Jasa-Jasa</h2>
           <p>

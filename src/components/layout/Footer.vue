@@ -25,13 +25,6 @@
                 >Home</router-link
               >
             </li>
-            <li>
-              <router-link
-                to="#"
-                class="inline-block transition hover:scale-110 hover:text-secondary"
-                >Tentang Saya</router-link
-              >
-            </li>
           </ul>
         </div>
       </div>
@@ -41,24 +34,9 @@
     >
       <div class="container">
         <div
-          class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row"
+          class="flex flex-col items-center justify-center text-center font-bold dark:text-white md:flex-row"
         >
-          <div>
-            Copyright© {{ new Date().getFullYear() }}
-            <a
-              href="javascript:"
-              class="text-primary transition hover:text-secondary"
-              >Plurk Technologies Pvt. Ltd.</a
-            >
-          </div>
-          <div>
-            Need help? Visit the
-            <router-link
-              to="#"
-              class="text-secondary transition hover:text-primary"
-              >Contact Us</router-link
-            >
-          </div>
+          <div>Copyright© {{ new Date().getFullYear() }}</div>
         </div>
       </div>
     </div>
