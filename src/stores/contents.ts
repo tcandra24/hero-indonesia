@@ -34,6 +34,16 @@ export const useContentStore = defineStore("contents", {
         logo: "/assets/images/logo-hizbul-wathan.png",
         image: "/assets/images/image-hizbul-wathan.png",
       },
+      {
+        title: "Sekolah Muhammadiyah",
+        slug: "sekolah-muhammadiyah",
+        description: `Sekolah Muhammadiyah dimaksudkan untuk berfungsi sebagai sarana pendidikan sekaligus sebagai pusat kaderasasi. 
+            Sebagai pusat kaderisasi, sekolah Muhammadiyah haruslah menghasilkan kader yang dapat mendukung, dan bergerak untuk mewujudkan cita-cita persyarikatan dalam masyarakat. 
+            Yakni menghasilkan lulusan yang dapat berusaha mewujudkan terwujudnya masyarakat Islam yang sebenar-benarnya. Untuk itu, sekolah-sekolah Muhammadiyah 
+            seharusnya mengutamakan dirinya untuk berfungsi menghasilkan lulusan yang mampu hidup sebagai pribadi muslim yang sebenar-benarnya.`,
+        logo: "/assets/images/logo-sekolah-muhammadiyah.png",
+        image: "/assets/images/image-sekolah-muhammadiyah.png",
+      },
     ],
   }),
 });

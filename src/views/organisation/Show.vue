@@ -49,7 +49,7 @@
       class="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]"
     >
       <div class="container">
-        <div class="prose max-w-full dark:prose-invert">
+        <div class="prose max-w-full dark:prose-invert text-justify">
           <h2>Apa itu {{ content.title }} ?</h2>
           <p>
             {{ content.description }}

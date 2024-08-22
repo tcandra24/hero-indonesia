@@ -2,7 +2,7 @@
   <div>
     <div class="bg-black pt-[82px] lg:overflow-hidden lg:pt-[106px]">
       <div
-        class="bg-[url(/assets/images/overlay-noise.png)] bg-cover bg-no-repeat pt-14 lg:pt-20"
+        class="bg-[url(/assets/images/world-map.png)] bg-cover bg-no-repeat pt-14 lg:pt-20"
       >
         <div class="container">
           <div class="relative">
