@@ -60,27 +60,19 @@
             >
               <div class="text-center">
                 <img
-                  src="/assets/images/personal-portfolio/logo-1.svg"
+                  src="/assets/images/garuda-siluet.png"
                   alt=""
-                  class="mx-auto mb-4"
+                  class="mx-auto mb-4 w-16"
                 />
-                <p>Awarded as Best Design & Creative</p>
+                <p>Pahlawan Nasional</p>
               </div>
               <div class="text-center">
                 <img
-                  src="/assets/images/personal-portfolio/logo-2.svg"
+                  src="/assets/images/muhammadiyah-siluet.png"
                   alt=""
-                  class="mx-auto mb-4"
+                  class="mx-auto mb-4 w-16"
                 />
-                <p>Top-1 Trending Team on Dribbble</p>
-              </div>
-              <div class="text-center">
-                <img
-                  src="/assets/images/personal-portfolio/logo-3.svg"
-                  alt=""
-                  class="mx-auto mb-4"
-                />
-                <p>Top User Experience Agency</p>
+                <p>Pendiri Muhammadiyah</p>
               </div>
             </div>
             <div

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="flex items-center justify-between py-5 lg:py-0">
         <router-link to="/"
-          ><img src="/assets/images/logo.png" alt="logo" class="h-10"
+          ><img src="/assets/images/logo.png" alt="hero-indonesia" class="h-10"
         /></router-link>
         <div class="flex items-center">
           <div
@@ -195,7 +195,6 @@ import { ref } from "vue";
 import { useAppStore } from "../../stores/index";
 const store = useAppStore();
 const showMenu = ref(false);
-const showSearch = ref(false);
 // Mobile menu js
 const toggleMenu = () => {
   if (window.innerWidth < 1024) {
@@ -203,10 +202,5 @@ const toggleMenu = () => {
   } else {
     showMenu.value = false;
   }
-};
-
-// Search Bar - Header
-const toggleSearch = () => {
-  showSearch.value = !showSearch.value;
 };
 </script>
