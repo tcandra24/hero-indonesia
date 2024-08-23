@@ -10,8 +10,9 @@ export const useContentStore = defineStore("contents", {
             nama Nabi Muhammad SAW. Muhammadiyah adalah gerakan Islam dakwah amar ma'ruf nahi munkar 
             dan tajdid (pembaruan tentang pokok ajaran Islam) yang bersumber pada al-Qur'an dan as-Sunnah as-Sohihah. 
             Muhammadiyah memiliki tuntunan beribadah yang sesuai dengan Al-hadist dan Al-qur'an.`,
-        logo: "/assets/images/logo-muhammadiyah.png",
-        image: "/assets/images/image-muhammadiyah.png",
+        logo: "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/logo-muhammadiyah.png",
+        image:
+          "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/image-muhammadiyah.png",
       },
       {
         title: "Aisyiyah",
@@ -21,8 +22,9 @@ export const useContentStore = defineStore("contents", {
             (27 Rajab 1335 H) di Yogyakarta oleh Siti Walidah (Nyai Ahmad Dahlan) dan suaminya, Kiai Haji Ahmad Dahlan. 
             Nama Aisyiyah diambil dari nama istri nabi Muhammad, 'Aisyah, yang dikenal cerdas dan mumpuni. 
             Aisyiyah bermaksud untuk berdampingan dengan Muhammadiyah dalam berdakwah.`,
-        logo: "/assets/images/logo-aisyiyah.png",
-        image: "/assets/images/image-aisyiyah.png",
+        logo: "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/logo-aisyiyah.png",
+        image:
+          "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/image-aisyiyah.png",
       },
       {
         title: "Hizbul Wathan",
@@ -31,8 +33,9 @@ export const useContentStore = defineStore("contents", {
             di Indonesia. HW didirikan pada tahun 1918 oleh K.H. Ahmad Dahlan, pendiri Muhammadiyah, 
             dengan tujuan untuk mendidik anak-anak dan pemuda agar 
             menjadi pribadi muslim yang beriman, berilmu, berteknologi, dan berakhlak mulia.`,
-        logo: "/assets/images/logo-hizbul-wathan.png",
-        image: "/assets/images/image-hizbul-wathan.png",
+        logo: "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/logo-hizbul-wathan.png",
+        image:
+          "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/image-hizbul-wathan.png",
       },
       {
         title: "Sekolah Muhammadiyah",
@@ -41,8 +44,9 @@ export const useContentStore = defineStore("contents", {
             Sebagai pusat kaderisasi, sekolah Muhammadiyah haruslah menghasilkan kader yang dapat mendukung, dan bergerak untuk mewujudkan cita-cita persyarikatan dalam masyarakat. 
             Yakni menghasilkan lulusan yang dapat berusaha mewujudkan terwujudnya masyarakat Islam yang sebenar-benarnya. Untuk itu, sekolah-sekolah Muhammadiyah 
             seharusnya mengutamakan dirinya untuk berfungsi menghasilkan lulusan yang mampu hidup sebagai pribadi muslim yang sebenar-benarnya.`,
-        logo: "/assets/images/logo-sekolah-muhammadiyah.png",
-        image: "/assets/images/image-sekolah-muhammadiyah.png",
+        logo: "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/logo-sekolah-muhammadiyah.png",
+        image:
+          "https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/image-sekolah-muhammadiyah.png",
       },
     ],
   }),

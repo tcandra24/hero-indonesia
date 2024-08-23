@@ -2,7 +2,7 @@
   <div>
     <div class="bg-black pt-[82px] lg:overflow-hidden lg:pt-[106px]">
       <div
-        class="bg-[url(/assets/images/world-map.png)] bg-cover bg-no-repeat pt-14 lg:pt-20"
+        class="bg-[url(https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/world-map.png)] bg-cover bg-no-repeat pt-14 lg:pt-20"
       >
         <div class="container">
           <div class="relative">
@@ -60,7 +60,7 @@
             >
               <div class="text-center">
                 <img
-                  src="/assets/images/garuda-siluet.png"
+                  src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/garuda-siluet.png"
                   alt=""
                   class="mx-auto mb-4 w-16"
                 />
@@ -68,7 +68,7 @@
               </div>
               <div class="text-center">
                 <img
-                  src="/assets/images/muhammadiyah-siluet.png"
+                  src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/muhammadiyah-siluet.png"
                   alt=""
                   class="mx-auto mb-4 w-16"
                 />
@@ -79,7 +79,7 @@
               class="absolute bottom-0 hidden w-3/5 ltr:-right-24 rtl:-left-24 rtl:rotate-y-180 lg:block"
             >
               <img
-                src="/assets/images/person.png"
+                src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/person.png"
                 alt=""
                 class="w-full"
                 data-aos="fade-up"
@@ -87,7 +87,7 @@
               />
               <div class="absolute top-[32%] left-4">
                 <img
-                  src="/assets/images/logo-muhammadiyah.png"
+                  src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/logo-muhammadiyah.png"
                   class="w-1/4 invert brightness-0"
                   alt=""
                   data-aos="fade-up"
@@ -160,7 +160,7 @@
         <div class="grid items-center gap-y-16 gap-x-8 lg:grid-cols-2">
           <div class="relative">
             <img
-              src="/assets/images/kh-ahmad-dahlan.jpg"
+              src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/kh-ahmad-dahlan.jpg"
               alt=""
               class="h-full w-full object-cover rounded-lg"
             />
@@ -206,7 +206,7 @@
     >
       <div class="absolute inset-x-0 top-0 h-[580px] bg-black">
         <img
-          src="/assets/images/personal-portfolio/star-icon.svg"
+          src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/star-icon.svg"
           alt=""
           class="absolute top-0 ltr:left-0 rtl:right-0 rtl:rotate-y-180"
           data-aos="fade-down"

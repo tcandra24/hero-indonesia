@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]"
+      class="bg-[url(https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]"
     >
       <div class="relative">
         <div class="container">
@@ -23,7 +23,7 @@
               data-aos-duration="1000"
             >
               <img
-                src="/assets/images/kh-ahmad-dahlan.jpg"
+                src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/kh-ahmad-dahlan.jpg"
                 alt="blog-detail-hero"
                 class="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px]"
               />
@@ -112,7 +112,7 @@
               data-aos-duration="1000"
             >
               <img
-                src="/assets/images/film-sang-pencerah-2.png"
+                src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/film-sang-pencerah-2.png"
                 alt="blog-detail-1"
                 class="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
               />
@@ -123,7 +123,7 @@
               data-aos-duration="1000"
             >
               <img
-                src="/assets/images/film-sang-pencerah.jpg"
+                src="https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/film-sang-pencerah.jpg"
                 alt="blog-detail-2"
                 class="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
               />

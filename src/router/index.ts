@@ -27,7 +27,7 @@ const router = createRouter({
   history: createWebHistory(),
   linkExactActiveClass: "active",
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, _, savedPosition) {
     if (to.hash) {
       return { el: to.hash };
     }
@@ -40,7 +40,7 @@ const router = createRouter({
   },
 });
 
-router.afterEach((to, from, next) => {
+router.afterEach(() => {
   const store = useAppStore();
   store.toggleMainLoader(false);
 });

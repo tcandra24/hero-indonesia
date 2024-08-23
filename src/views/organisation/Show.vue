@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]"
+      class="bg-[url(https://s3-jak01.storageraya.com/challenge-hut-ri/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]"
     >
       <div class="relative">
         <div class="container">
@@ -15,19 +15,7 @@
               <h4 class="!text-white">{{ content.title }}</h4>
               <ul
                 class="items-center justify-center pt-6 sm:flex lg:justify-start"
-              >
-                <li class="flex items-center justify-center">
-                  <img src="/assets/images/sophia-avtar.png" alt="avtar" />
-                  <span class="px-4 font-semibold sm:text-lg"
-                    >Sophia Reyes</span
-                  >
-                </li>
-                <li
-                  class="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1"
-                >
-                  5 mins read
-                </li>
-              </ul>
+              ></ul>
             </div>
             <div
               class="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
@@ -69,7 +57,7 @@ const storeContent = useContentStore();
 const route = useRoute();
 const slug = route.params.slug;
 
-const content = storeContent.organisations.find(
+const content: any = storeContent.organisations.find(
   (element) => element.slug === slug
 );
 </script>
